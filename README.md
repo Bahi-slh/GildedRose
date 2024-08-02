@@ -52,6 +52,14 @@ start refactoring.
 
 ![alt text](images/build_output.png "Good Build Output")
 
+## Obsolete Files
+
+ Program – old.cs: This file has the original logic of the program. It’s retained to see the implementation details before and after refactoring. Avoid using this file for production purposes.
+
+
+
+ old.cs - TestAssemblyTests:File in question, with the original test logic. References against which the refactored tests should comfortably match – with differences, of course, due to the introduction of the ItemType enums.
+
 ## Who, What, Why?
 Who: [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
 
