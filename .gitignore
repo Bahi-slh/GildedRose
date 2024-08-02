@@ -233,3 +233,20 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+# Visual Studio 2022 config folder
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
